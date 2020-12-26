@@ -1,0 +1,92 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.tdkhoi img {
+    float: right;
+    transition: 0.4s;
+    margin-top: 30px;
+    margin-right: -100px;
+}
+
+h2.tdkhoi {
+    height: 80px;
+    font-size: 70px;
+    color: #57544de6;
+    font-weight: 300;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 0.4s;
+}
+
+h2.tdkhoi:hover {
+    color: lightblue;
+}
+
+h2.tdkhoi:hover img {
+    margin-right: 0px;
+}
+
+._1motkhoi {
+    border: 1px solid #6f75766e;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+}
+
+.vaicaianh {
+    overflow: hidden;
+
+}
+
+img.anhnho {
+    border-style: double;
+    border-width: medium;
+    float: left;
+    height: 180px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+img.anhnho:hover {
+    opacity: 0.7;
+    /* transform: scale(1.5); */
+}
+
+.noidung {
+    width: 70%;
+    margin: auto;
+    font-family: "Times New Roman",'Josefin Slab', serif;
+}
+
+.ndkhoi {
+    color: gray;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+body {
+    background: url(./image/bk2.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1.tieude {
+    font-family: "Times New Roman",'Josefin Slab', serif;
+    font-weight: 100;
+    margin: 17px 0;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+body {
+   background-color: #9cf;
+}
+.tdkhoi.xanh {
+	color:  lightblue;
+}
+
+h2.tdkhoi.xanh img {
+    margin-right: 0;
+    transform: rotate(180deg);
+    margin-top: 31px;
+}
